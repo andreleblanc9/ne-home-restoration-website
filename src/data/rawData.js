@@ -144,8 +144,8 @@ const state = {
   gallery: {
     title: "Showcasing our work",
     slideshow: {
-      activeAlbumId: "72157694152735684",
-      albumsToShow: ["72157665060259447", "72157667100192078", "72157665060525757", "72157694152735684", "72157665060914627"]
+      activeAlbumId: "72157665060525757",
+      albumsToShow: ["72157665060259447", "72157667100192078", "72157665060525757", "72157675303391157", "72157677461957488"]
     },
     showcase: {
       albumId: "72157668764515948"
@@ -169,11 +169,13 @@ const state = {
       },
       {
         name: "Wood Work",
-        id: "72157694152735684"
+        id: "72157675303391157"
+        // id: "72157694152735684"
       },
       {
         name: "Exterior",
-        id: "72157665060914627"
+        id: "72157677461957488"
+        // id: "72157665060914627"
       }
     ]
   },
@@ -217,7 +219,7 @@ const state = {
       }
     ]
   },
-  pages: [  
+  pages: [
     {
       name: 'Home',
       url: '/'
@@ -249,8 +251,8 @@ const state = {
   ],
   flickrAssets: [
     {
-      id: "40183215360",
-      name: "Andrew Photo"
+      name: "Andrew Photo",
+      id: "40183215360"
     },
     {
       name: "BuildClean Dust Control HEPA",
@@ -281,12 +283,12 @@ const state = {
       id: "40183781420"
     },
     {
-      id: "28119002998",
-      name: 'Bathrooms'
+      name: 'Bathrooms',
+      id: "28119002998"
     },
     {
-      id: "41946547262",
-      name: "Failed to load"
+      name: "Failed to load",
+      id: "41946547262"
     }
   ]
 };
